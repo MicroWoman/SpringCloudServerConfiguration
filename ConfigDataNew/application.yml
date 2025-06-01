@@ -1,0 +1,41 @@
+---
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
+      
+
+---
+spring:
+  config.activate.on-profile: europe
+continent: Європа
+lat: 48.8566
+lon: 2.3522
+
+---
+spring:
+  config.activate.on-profile: asia
+continent: Азія
+lat: 35.6895
+lon: 139.6917
+
+---
+spring:
+  config.activate.on-profile: america
+continent: Америка
+lat: 40.7128
+lon: -74.0060
+
+---
+spring:
+  config.activate.on-profile: africa
+continent: Африка
+lat: 30.0444
+lon: 31.2357
+
+---
+spring:
+  config.activate.on-profile: australia
+continent: Австралія
+lat: -33.8688
+lon: 151.2093
